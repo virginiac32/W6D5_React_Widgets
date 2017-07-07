@@ -1,3 +1,24 @@
+
+
 div {
-  font-family: 'Open Sans';
+  font-family: 'Sarala', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-start;
+  background: coral;
+  padding-left: 5%;
+}
+
+h1 {
+  font-size: 50px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+
+}
+li {
+  list-style: none;
+  font-size: 30px;
+
 }

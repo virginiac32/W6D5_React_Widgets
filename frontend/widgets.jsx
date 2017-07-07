@@ -1,13 +1,16 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 import Clock from './clock';
+import Weather from './weather';
 
 class Root extends React.Component {
   render() {
-    return (<div>
+    return (
+      <div>
       <Clock />
-    </div>);
-
+      <Weather />
+      </div>
+    );
   }
 }
 
