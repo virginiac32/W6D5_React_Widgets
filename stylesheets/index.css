@@ -6,7 +6,10 @@ div {
   justify-content: space-around;
   align-self: flex-start;
   background: coral;
-  padding-left: 5%;
+}
+
+div:first-of-type {
+  padding-right: 5%;
 }
 
 h1 {
